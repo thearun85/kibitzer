@@ -1,15 +1,10 @@
-from datetime import UTC, datetime
+from datetime import datetime
 from typing import Literal
-from uuid import UUID, uuid4
 
-from pydantic import BaseModel, Field
-
-
-def _utc_now() -> datetime:
-    return datetime.now(tz=UTC)
+from kibitzer.events import BaseEvent
 
 
-class GameImported(BaseModel):
+class GameImported(BaseEvent):
     game_id: str
     played_at: datetime
     pgn: str
@@ -17,5 +12,3 @@ class GameImported(BaseModel):
     black: str
     result: Literal["1-0", "0-1", "1/2-1/2"]
     time_control: str
-    event_id: UUID = Field(default_factory=uuid4)
-    event_timestamp: datetime = Field(default_factory=_utc_now)
