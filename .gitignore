@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# json
+sample_response.json
+
 # Distribution / packaging
 .Python
 build/
