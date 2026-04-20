@@ -2,6 +2,7 @@
 name = "kibitzer"
 version = "0.0.1"
 description = "Stockfish and an LLM, arguing about your chess, every Monday morning."
+include = ["src/kibitzer/py.typed"]
 authors = ["Kibitzer <noreply@example.com>"]
 license = "MIT"
 readme = "README.md"
@@ -9,6 +10,7 @@ packages = [{ include = "kibitzer", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pydantic = "^2.9"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3"
@@ -30,7 +32,9 @@ quote-style = "double"
 [tool.mypy]
 python_version = "3.12"
 strict = true
-files = ["src", "tests"]
+mypy_path = "src"
+packages = ["kibitzer", "tests"]
+explicit_package_bases = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
