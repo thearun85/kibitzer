@@ -1,0 +1,28 @@
+{
+      "url": "https://www.chess.com/game/live/166710291540",
+      "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2026.04.01\"]\n[Round \"-\"]\n[White \"arunraghunath\"]\n[Black \"Ankeat\"]\n[Result \"0-1\"]\n[CurrentPosition \"3krb1r/npp2ppp/8/1P1p4/5BB1/P7/2P3PP/qN3RK1 w - - 0 20\"]\n[Timezone \"UTC\"]\n[ECO \"D00\"]\n[ECOUrl \"https://www.chess.com/openings/Queens-Pawn-Opening-Stonewall-Attack\"]\n[UTCDate \"2026.04.01\"]\n[UTCTime \"08:55:19\"]\n[WhiteElo \"327\"]\n[BlackElo \"324\"]\n[TimeControl \"180\"]\n[Termination \"Ankeat won by resignation\"]\n[StartTime \"08:55:19\"]\n[EndDate \"2026.04.01\"]\n[EndTime \"08:58:44\"]\n[Link \"https://www.chess.com/game/live/166710291540\"]\n\n1. d4 {[%clk 0:02:57.2]} 1... d5 {[%clk 0:02:56.6]} 2. e3 {[%clk 0:02:56.1]} 2... Nf6 {[%clk 0:02:54.1]} 3. Bd3 {[%clk 0:02:54.1]} 3... Bg4 {[%clk 0:02:52.7]} 4. Qd2 {[%clk 0:02:44.5]} 4... Nc6 {[%clk 0:02:47.1]} 5. Ne2 {[%clk 0:02:42.4]} 5... Qd7 {[%clk 0:02:40.2]} 6. O-O {[%clk 0:02:41]} 6... Qe6 {[%clk 0:02:38.6]} 7. f3 {[%clk 0:02:36.4]} 7... Bh5 {[%clk 0:02:37]} 8. Nf4 {[%clk 0:02:32.8]} 8... Qd6 {[%clk 0:02:28.9]} 9. Nxh5 {[%clk 0:02:26.3]} 9... Nxh5 {[%clk 0:02:24.5]} 10. a3 {[%clk 0:02:19.1]} 10... e5 {[%clk 0:02:17.3]} 11. b4 {[%clk 0:02:17]} 11... exd4 {[%clk 0:02:16.1]} 12. Be2 {[%clk 0:02:06.4]} 12... dxe3 {[%clk 0:02:09.7]} 13. Qxe3+ {[%clk 0:01:57.8]} 13... Kd7 {[%clk 0:02:06.7]} 14. f4 {[%clk 0:01:54.5]} 14... Re8 {[%clk 0:02:03.7]} 15. Bg4+ {[%clk 0:01:50]} 15... Kd8 {[%clk 0:02:00.4]} 16. Qf2 {[%clk 0:01:27]} 16... Nxf4 {[%clk 0:01:53.3]} 17. Bxf4 {[%clk 0:01:25.1]} 17... Qf6 {[%clk 0:01:44.3]} 18. b5 {[%clk 0:01:16.3]} 18... Qxa1 {[%clk 0:01:42.5]} 19. Qxa7 {[%clk 0:01:12]} 19... Nxa7 {[%clk 0:01:40]} 0-1\n",
+      "time_control": "180",
+      "end_time": 1775033924,
+      "rated": true,
+      "tcn": "lBZJmu!Tft6Edl5Qgm7ZegZSnvENmDSRDNTNiq0KjzKBtmBulu8ZvD48mEZ7unNDcDRTzHTanWQW",
+      "uuid": "82d9e6da-2da8-11f1-8aee-1921a101000f",
+      "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen": "3krb1r/npp2ppp/8/1P1p4/5BB1/P7/2P3PP/qN3RK1 w - - 0 20",
+      "time_class": "blitz",
+      "rules": "chess",
+      "white": {
+        "rating": 327,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/arunraghunath",
+        "username": "arunraghunath",
+        "uuid": "7bbb9d76-7552-11f0-855d-2143202d4ce5"
+      },
+      "black": {
+        "rating": 324,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/ankeat",
+        "username": "Ankeat",
+        "uuid": "27911e36-dd60-11ef-92d8-91b9760350de"
+      },
+      "eco": "https://www.chess.com/openings/Queens-Pawn-Opening-Stonewall-Attack"
+}
